@@ -3,6 +3,10 @@ class gender:
     def __init__(self,name):
         self.name = name
 
+male = gender('male')
+female = gender('female')
+
+
 class person:
     name = "null"
     age = -1

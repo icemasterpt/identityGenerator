@@ -20,5 +20,14 @@ def wipeAllPeoplebyGender(genderInt,isLocal = True ):
         cur.execute(sql)
     else:
         pass
-        
+
+def deletePeopleByID(id,isLocal = True ):
+    #genderINT 0 male , 1 female
+    if isLocal:
+        conn = db_connect()
+        sql = 'DELETE FROM '+config.db_person+' WHERE id = '+str(id)
+        cur = conn.cursor()
+        cur.execute(sql)
+    else:
+        pass        
 

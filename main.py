@@ -5,6 +5,7 @@ male = gender('male')
 female = gender('female')
 
 def main():
+    #FOR TESTING PURPOSES
     #create sample person.
     print("Generating a family...")
     person1 = identityGenerator.generatePerson()

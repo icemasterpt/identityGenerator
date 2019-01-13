@@ -13,5 +13,11 @@ remotedb_port = '000'
 #do not modify from here on.
 
 db_nameTable = 'names'
+db_nameTableFemale = 'names_female'
 db_countries = 'country'
-db_lastname  = 'lastnames'
+db_lastname  = 'familyNames'
+
+#relative to finished data
+
+db_person = 'pessoa'
+
